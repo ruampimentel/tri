@@ -110,7 +110,7 @@ library(WrightMap)
 
 WrightMap::wrightMap(
   thetas = mod1$theta, 
-  thresholds = mod1$xsi, 
+  thresholds = tam.threshold(mod1), 
   new.quartz = TRUE
   )
 
